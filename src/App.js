@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Projects from './components/Projects';
+import TechStack from './components/TechStack';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/* <h1 className='lg:hidden text-3xl flex justify-center my-auto h-full w-full'>Sorry this is desktop only..</h1> */}
+
+      <div className='overflow-x-hidden w-full h-full mb-10'>
+        <Navbar/>
+        <Main/>
+        <Projects/>
+        <TechStack/>
+        <ContactMe/>
+      </div>
+
     </div>
   );
 }
