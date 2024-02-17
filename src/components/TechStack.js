@@ -19,7 +19,7 @@ const TechStack = () => {
             <img src='/assets/Javascript.svg' alt='JavaScript Logo' />
             <img src='/assets/Git.svg' alt='Git Logo' />
             <img src='/assets/MongoDB.svg' alt='MongoDB Logo' />
-            <img src='/assets/NodeJs.svg' alt='Node.js Logo' />
+            <img src='/assets/NodeJs.svg' alt='Node.js Logo' className='lg:w-[60px] w-[40px] h-[80px]'/>
           </div>
           <p className='text-white text-base lg:text-xl font-light mt-5'>
             <span className='text-2xl lg:text-3xl font-bold'>Hello!</span>
