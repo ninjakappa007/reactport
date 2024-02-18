@@ -1,8 +1,7 @@
 import React from 'react'
 import "./Main.css"
-import { GrAttachment } from "react-icons/gr";
 
-
+  
 const Main = () => {
   return (
     <div className='mainbody lg:w-[1200px] w-[300px] h-[450px] lg:h-[550px] mx-auto rounded-lg '>
@@ -20,7 +19,7 @@ const Main = () => {
 
         </a>
       </div>
-      <div class="blob lg:w-[500px] lg:h-[500px] h-[100px] w-[100px]"></div>
+      <div class="blob lg:w-[500px] lg:h-[500px] h-[200px] w-[200px]"></div>
     </div>
     </div>
   )
