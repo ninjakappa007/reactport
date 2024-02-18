@@ -26,7 +26,7 @@ const Projects = () => {
       <div>
         <ProjectCard card={ProjectsData[card]}></ProjectCard>
       </div>
-      <div className='flex flex-col sm:flex-row justify-around items-center mt-5 text-xl font-extrabold'>
+      <div className='flex flex-row justify-around items-center mt-5 text-xl font-extrabold'>
         <button
           onClick={(event) => changeHandler(event)}
           name='previous'
