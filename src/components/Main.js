@@ -4,7 +4,7 @@ import "./Main.css"
   
 const Main = () => {
   return (
-    <div className='mainbody lg:w-[1200px] w-[300px] h-[450px] lg:h-[550px] mx-auto rounded-lg '>
+    <div className='mainbody lg:w-[1200px] w-[90%] h-[450px] lg:h-[550px] mx-auto rounded-lg '>
 
 		<div className="container lg:h-[550px] h-[400px] lg:w-[1200px] w-[300px] flex justify-center items-center relative overflow-hidden ">
       <div className="card lg:w-[400px] lg:h-[250px]  w-[200px] h-[300px]">
