@@ -21,7 +21,7 @@ const TechStack = () => {
             <img src='/assets/MongoDB.svg' alt='MongoDB Logo' />
             <img src='/assets/NodeJs.svg' alt='Node.js Logo' className='lg:w-[60px] w-[40px] h-[80px]'/>
           </div>
-          <p className='text-white text-base lg:text-xl font-light mt-5'>
+          <p className='text-slate-200 text-base lg:text-xl font-light mt-5'>
             <span className='text-2xl lg:text-3xl font-bold'>Hello!</span>
             <br />
             I love learning new things and staying up-to-date with the latest web technologies. Excited to bring creativity and fresh ideas to the world of web development!
@@ -29,7 +29,7 @@ const TechStack = () => {
         </div>
 
         {/* about details */}
-        <div className='text-white lg:w-[50%] w-full font-light text-base lg:text-xl mt-5 lg:mt-0'>
+        <div className='text-slate-200 lg:w-[50%] w-full font-light text-base lg:text-xl mt-5 lg:mt-0'>
           <p className='mb-5'>
             I'm diving into the MERN stack, which involves React.js, Express.js, Node.js, and MongoDB. I'm proficient at creating user-friendly interfaces using React and Tailwind CSS.
           </p>
