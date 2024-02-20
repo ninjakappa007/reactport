@@ -12,6 +12,6 @@ Built with React, this is my personal portfolio deployed on Vercel. View the liv
 
 Explore the live demo at [Portfolio Website](https://ashutoshnayak.vercel.app/). To run locally:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
+1. Clone the repository: `git clone https://github.com/ninjakappa007/reactport.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
