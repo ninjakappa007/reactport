@@ -19,7 +19,7 @@ const Projects = () => {
   }
 
   return (
-    <div className='lg:w-[1200px] w-[90%] mx-auto rounded-lg mt-10 p-5 sm:p-10 bg-[#f1f5f9]' id='projects'>
+    <div className='lg:w-[1200px] w-[90%] mx-auto rounded-lg mt-10 p-5 sm:p-10 bg-[#f1f5f9] ' id='projects'>
       <div className='text-center text-2xl font-semibold text-[#0284c7] mb-5'>
         Projects
       </div>
