@@ -48,24 +48,38 @@
 
 @-webkit-keyframes move {
   from {
-    transform: translate(-100px, -50px) rotate(-90deg);
+    transform: translate(-50px, -30px) rotate(-90deg);
     border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
   }
 
   to {
-    transform: translate(500px, 100px) rotate(-10deg);
+    transform: translate(200px, 50px) rotate(-10deg);
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
 
 @keyframes move {
   from {
-    transform: translate(-100px, -50px) rotate(-90deg);
+    transform: translate(-50px, -30px) rotate(-90deg);
     border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
   }
 
   to {
-    transform: translate(500px, 100px) rotate(-10deg);
+    transform: translate(200px, 50px) rotate(-10deg);
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
+}
+
+@media (min-width: 1024px) {
+  @keyframes move {
+    from {
+      transform: translate(-100px, -50px) rotate(-90deg);
+      border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    to {
+      transform: translate(500px, 100px) rotate(-10deg);
+      border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
   }
 }

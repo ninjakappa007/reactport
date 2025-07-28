@@ -10,9 +10,9 @@ const Navbar = () => {
       </div>
 
       <div className='lg:flex gap-6 text-xl hidden'>
-        <div>
-          <button><a href='#projects'>Projects</a></button>
-        </div>
+        {/*<div>*/}
+        {/*  <button><a href='#projects'>Projects</a></button>*/}
+        {/*</div>*/}
         <div>
           <button><a href='#techstack'>About</a></button>
         </div>

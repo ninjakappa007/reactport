@@ -3,8 +3,9 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Projects from './components/Projects';
 import TechStack from './components/TechStack';
-import ContactMe from './components/ContactMe';
 import Experience from './components/Experience';
+import Certificates from './components/Certificates';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <div className='overflow-x-hidden w-full h-full mb-10'>
         <Navbar/>
         <Main/>
-        <Projects/>
         <TechStack/>
         <Experience/>
+        <Certificates/>
+        {/*<Projects/>*/}
         <ContactMe/>
       </div>
     </div>
