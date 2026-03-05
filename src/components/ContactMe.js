@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoLogoLinkedin } from 'react-icons/io5';
 import { FaSquareXTwitter, FaSquareGithub } from 'react-icons/fa6';
+import { SiLeetcode } from 'react-icons/si';
 
 const ContactMe = () => {
   return (
@@ -12,12 +13,15 @@ const ContactMe = () => {
           <a href='https://www.linkedin.com/in/ashutoshnayaak/' target='_blank' rel='noreferrer' className='text-3xl sm:text-4xl lg:text-5xl text-slate-500 hover:underline'>
             <IoLogoLinkedin />
           </a>
-          <a href='https://x.com/ashutoshnayaak' target='_blank' rel='noreferrer' className='text-3xl sm:text-4xl lg:text-5xl text-slate-500 hover:underline'>
+          <a href='https://x.com/ninjakappaa' target='_blank' rel='noreferrer' className='text-3xl sm:text-4xl lg:text-5xl text-slate-500 hover:underline'>
             <FaSquareXTwitter />
           </a>
           <a href='https://github.com/ninjakappa007' target='_blank' rel='noreferrer' className='text-3xl sm:text-4xl lg:text-5xl text-slate-500 hover:underline'>
             <FaSquareGithub />
           </a>
+            <a href='https://leetcode.com/u/ashutoshnayak410/' target='_blank' rel='noreferrer' className='text-3xl sm:text-4xl lg:text-5xl text-slate-500 hover:underline'>
+                <SiLeetcode />
+            </a>
         </div>
       </div>
 

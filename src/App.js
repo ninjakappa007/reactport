@@ -1,11 +1,11 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
-import Projects from './components/Projects';
 import TechStack from './components/TechStack';
 import Experience from './components/Experience';
-import Certificates from './components/Certificates';
+import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
         <Main/>
         <TechStack/>
         <Experience/>
-        <Certificates/>
-        {/*<Projects/>*/}
+        <Skills/>
         <ContactMe/>
+        <Footer/>
       </div>
     </div>
   );
